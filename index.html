@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực Chiến DOM</title>
+    <!-- Boostrap v5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous" defer></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            font-size: 62.5%;
+            font-family: 'Times New Roman', Times, sans-serif;
+        }
+        
+        body {
+            font-size: 1.6rem;
+            line-height: 1.5;
+            background-color: #7ee8fa;
+            background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+            overflow: hidden;
+        }
+        
+        .title {
+            text-align: center;
+            padding: 3rem 0;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        
+        .list {
+            font-size: 3rem;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            grid-template-columns: repeat(2, 40rem);
+            column-gap: 1rem;
+            row-gap: 2px;
+            list-style-type: none;
+        }
+        
+        .list li:hover>a {
+            opacity: 0.7;
+        }
+        
+        .list li a {
+            display: block;
+            border: 1px solid purple;
+            border-radius: 4px;
+            padding: 1rem;
+            text-decoration: none;
+            color: #fff;
+            background-color: purple;
+            transition: 0.25s ease;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1 class="text-center p-3 title">Bài Tập Thực Chiến DOM</h1>
+
+        <ul class="list">
+            <li><a href="./0.Tabs/index.html">0) Tab Module</a></li>
+            <li><a href="./1.Product Filter/index.html">1) Live Product Filter</a></li>
+            <li><a href="./2.Range Slider/incdex.html">2) Create Range Slider</a></li>
+            <li><a href="./3.Search Box/index.html">3) Search Box</a></li>
+            <li><a href="./4.Slides Show/index.html">4) Slide Show</a></li>
+            <li><a href="./5.Search Tags/index.html">5) Search Tags</a></li>
+            <li><a href="./6.Detect Pressed Key/index.html">6) Detect Pressed Key</a></li>
+            <li><a href="./7.Create Modal/index.html">7) Create Modal</a></li>
+            <li><a href="./">8) Register Form Validator</a></li>
+            <li><a href="./">9) Weather App</a></li>
+            <li><a href="./10.Todo List/">10) Todo List</a></li>
+            <li><a href="./11.Toast/index.html">11) Toast Notify Cation</a></li>
+            <li><a href="./12.Profile-card/index.html">12) Profile Card</a></li>
+            <li><a href="./">13) Preview Images</a></li>
+            <li><a href="">14) Image Gallery</a></li>
+            <li><a href="">15) Product Card</a></li>
+            <li><a href="">16) Show On Scroll</a></li>
+            <li><a href="">17) Counter Up</a></li>
+            <li><a href="">18) Drag And Drop</a></li>
+            <li><a href="">19) Drawing App</a></li>
+            <li><a href="">20) Typing Animation</a></li>
+            <li><a href="">21) Dark And Light Mode</a></li>
+            <li><a href="">22) Filter Elements</a></li>
+            <li><a href="">23) Zoom Image</a></li>
+            <li><a href="">24) Hover Board</a></li>
+            <li><a href="">25) Custom Video Player</a></li>
+            <li><a href="">26) Validator Password</a></li>
+            <li><a href="">27) Tooltip</a></li>
+            <li><a href="">28) Skeleton Loading Effect</a></li>
+            <li><a href="">29) Play Piano</a></li>
+            <li><a href="">30) Simple Carousel</a></li>
+            <!-- <li><a href="./31-form-validation-1/index.html">31) Form Validation v1</a></li>
+            <li><a href="./32-form-validation-2/index.html">32) Form Validation v2</a></li> -->
+        </ul>
+    </div>
+</body>
+
+</html>
